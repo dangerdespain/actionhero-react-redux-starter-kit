@@ -1,6 +1,14 @@
 React Redux Starter Kit
 =======================
 
+Actionhero Notes
+-----------------
+1. Follow the ActionheroJS Getting Started guide to spool up a shiny new Actionhero API server.
+> Want data persistence? Install a local redis server and hook it up in config/redis.js
+2. Copy the actionhero/actions/count.js from this branch to the actions directory of the Actionhero server
+3. Start actionhero server
+4. Set up and run the react-redux-starter-kit below
+
 [![Join the chat at https://gitter.im/davezuko/react-redux-starter-kit](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/davezuko/react-redux-starter-kit?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://travis-ci.org/davezuko/react-redux-starter-kit.svg?branch=master)](https://travis-ci.org/davezuko/react-redux-starter-kit?branch=master)
 [![dependencies](https://david-dm.org/davezuko/react-redux-starter-kit.svg)](https://david-dm.org/davezuko/react-redux-starter-kit)
