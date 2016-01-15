@@ -3,11 +3,19 @@ React Redux Starter Kit
 
 Actionhero Notes
 -----------------
-1. Follow the ActionheroJS Getting Started guide to spool up a shiny new Actionhero API server.
-> Want data persistence? Install a local redis server and hook it up in config/redis.js
-2. Copy the actionhero/actions/count.js from this branch to the actions directory of the Actionhero server
-3. Start actionhero server
-4. Set up and run the react-redux-starter-kit below
+> ### First things first
+> Follow the ActionheroJS Getting Started guide to spool up a shiny new Actionhero API server. Want easy data persistence? Install a redis server locally.
+
+> ### Then..
+> Copy the actionhero/actions/count.js from this branch to the actions directory of the Actionhero server. Then, start the server and continue on into the starter kit.
+
+> ### Check out [davezuko/react-redux-starter-kit](https://github.com/davezuko/react-redux-starter-kit)
+> This is a react-redux-starter-kit implementation with a built-in Actionhero client. This uses one of Actionhero's hidden gems - its [pre-built client](http://www.actionherojs.com/docs/#connection-details). Fitting this into the starter kit ended up being part learning curve, and part black magic. 
+
+Possible features
+----------------
+- Chat middleware could be implemented to provide event back-binding from the API to the frontend.
+- Tutorial for how to compile to the Actionhero /public directory
 
 [![Join the chat at https://gitter.im/davezuko/react-redux-starter-kit](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/davezuko/react-redux-starter-kit?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://travis-ci.org/davezuko/react-redux-starter-kit.svg?branch=master)](https://travis-ci.org/davezuko/react-redux-starter-kit?branch=master)
