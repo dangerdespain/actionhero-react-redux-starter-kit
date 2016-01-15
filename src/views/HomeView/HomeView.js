@@ -17,8 +17,13 @@ export class HomeView extends React.Component {
   static propTypes = {
     counter: PropTypes.number.isRequired,
     doubleAsync: PropTypes.func.isRequired,
-    increment: PropTypes.func.isRequired
+    increment: PropTypes.func.isRequired,
+    getCount : PropTypes.func.isRequired,
   };
+
+  componentDidMount() {
+    this.props.getCount()
+  }
 
   render () {
     return (
